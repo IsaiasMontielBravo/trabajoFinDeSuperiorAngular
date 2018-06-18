@@ -1,0 +1,34 @@
+  <div class="ae-grid au-xs-ta-center au-mb-4 animated fadeIn">
+
+
+    <div *ngFor="let miembro of _is.equipo"
+          class="ae-grid__item item-lg-12 ae-kappa au-mb-6" >
+      <img [src]="miembro.url" alt="" class="au-mb-3">
+      <h5 class="ae-u-bolder au-mt-12">{{miembro.nombre}}</h5>
+      <p class="ae-u-bolder au-mb-12">{{miembro.subtitulo}}</p>
+      <p class="au-mb-3 au-pl-4 au-pr-4">{{miembro.frase}}</p>
+      <a href="https://twitter.com/{{miembro.twitter}}" target="_blank" class="ae-u-bolder au-underline">{{miembro.twitter}}</a>
+    </div>
+
+
+  <div class="ae-grid__item item-lg-12 ae-kappa au-mb-6">
+    <br><br>
+    <div class="ae-grid__item item-lg-8 item-lg--offset-2">
+      <h4 class="ae-u-bolder au-mt-12">Objetivos</h4>
+      <p class= "au-mb-3 au-pl-4 au-pr-4">Aprobar el curso y que todos los profesores esten contentos y felices con este trabajo en el cual se ha dedicado un tiempecillo.</p>
+    </div>
+  </div>
+  <div class="ae-grid ae-grid--alt au-xs-ptp-1">
+    <div class="ae-grid__item--alt item-lg-4">
+      <h6 class="ae-u-boldest">Sobre mi</h6>
+      <p class="au-lh-3">Soy un estudiante de DAW con conocimientos en python,PHP,Java,JavaScript,Angular. </p>
+    </div>
+    <div class="ae-grid__item--alt item-lg-4">
+      <h6 class="ae-u-boldest">Mi misión</h6>
+      <p class="au-lh-3">Aprobar el curso y así poder encontrar trabajo de lo que me gusta y desarrollarme como persona.</p>
+    </div>
+    <div class="ae-grid__item--alt item-lg-4">
+      <h6 class="ae-u-boldest">Mis gustos</h6>
+      <p class="au-lh-3">Me gusta mucho los videojuegos, el deporte y leer en mis ratos libres. </p>
+    </div>
+  </div>
